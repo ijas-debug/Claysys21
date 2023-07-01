@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+
+    <!-- Carousel wrapper -->
+    <div id="carouselVideoExample"
+         class="carousel slide carousel-fade"
+         data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button"
+                    data-mdb-target="#carouselVideoExample"
+                    data-mdb-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button"
+                    data-mdb-target="#carouselVideoExample"
+                    data-mdb-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button"
+                    data-mdb-target="#carouselVideoExample"
+                    data-mdb-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://www.wipro.com/content/dam/nexus/en/images/fly-through-clouds-V003.mp4#t=0.1" type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="campaign mx-auto">Make progress thrive with cloud-led innovation</h3>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://eu.louisvuitton.com/eng-e1/stories/capucines-olympia-of-greece" type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://lv-vod.fl.freecaster.net/vod/louisvuitton/6kDjKAPWSG_HD.mp4"
+                            type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Inner -->
+        <!-- Controls -->
+    </div>
+    <!-- Carousel wrapper -->
+</div>
